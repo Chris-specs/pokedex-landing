@@ -160,8 +160,9 @@ export default function Home() {
                             </p>
                             <div className='w-full mt-10'>
                                 <div className='flex justify-evenly items-center'>
-                                    {info.map((element) => (
+                                    {info.map((element, i) => (
                                         <p
+                                            key={i}
                                             className={`font-medium text-sm xl:text-xl text-${element.color}`}
                                         >
                                             {element.name}
