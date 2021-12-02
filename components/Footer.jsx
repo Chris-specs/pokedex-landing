@@ -1,9 +1,21 @@
+import { IoSwapVertical, IoSearch, IoHeart } from 'react-icons/io5';
+
 const Footer = () => {
     return (
-        <div className='w-full h-10 flex justify-center items-center'>
-            <h1>Footer</h1>
-        </div>
+        <footer className='w-full h-16 flex justify-center items-center bg-red-brand'>
+            <div className='w-full max-w-screen-2xl h-auto px-6'>
+                <p className='flex justify-center items-center gap-1 text-center text-xs text-white'>
+                    Developed with <IoHeart className='text-lg' /> by{' '}
+                    <a
+                        href='https://github.com/Chris-specs'
+                        className='font-bold'
+                    >
+                        Christian Sanchez
+                    </a>
+                </p>
+            </div>
+        </footer>
     );
-}
- 
+};
+
 export default Footer;
