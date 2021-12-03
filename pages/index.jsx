@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { Header, Footer } from '../components';
 import Logo from '../public/images/logo.svg';
 import Mockup from '../public/images/mockup.svg';
-import Mockup2 from '../public/images/mockup-2.svg';
+import Mockup2 from '../public/images/mockup-2.png';
 import Mockup3 from '../public/images/mockup-3.svg';
 import { SiAndroid } from 'react-icons/si';
 import { IoSwapVertical, IoSearch, IoArrowDown } from 'react-icons/io5';
@@ -12,19 +12,19 @@ export default function Home() {
     const info = [
         {
             name: 'Category',
-            color: 'red-brand',
+            color: 'text-red-brand',
         },
         {
             name: 'Description',
-            color: 'blue-brand',
+            color: 'text-blue-brand',
         },
         {
             name: 'Types',
-            color: 'green-brand',
+            color: 'text-green-brand',
         },
         {
             name: '+More',
-            color: 'dark-brand',
+            color: 'text-dark-brand',
         },
     ];
 
@@ -38,7 +38,7 @@ export default function Home() {
                 <link
                     rel='preconnect'
                     href='https://fonts.gstatic.com'
-                    crossOrigin
+                    crossOrigin='true'
                 />
                 <link
                     href='https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap'
@@ -58,8 +58,8 @@ export default function Home() {
                                     </span>
                                 </h1>
                                 <a
-                                    href='images/logo.svg'
-                                    download='logo.svg'
+                                    href='downloads/Pokedexapp.apk'
+                                    download='Pokedexapp.apk'
                                     className='w-44 h-10 xl:w-52 xl:h-12 flex justify-center items-center gap-4 bg-yellow-brand font-semibold text-sm xl:text-base text-gray-brand transform hover:scale-110 transition-all rounded-lg'
                                 >
                                     Download <SiAndroid />
@@ -72,13 +72,21 @@ export default function Home() {
                     </div>
                 </div>
                 <div className='hidden xl:flex flex-col justify-center items-center h-10%'>
-                    <a href='#info' className='flex flex-col justify-center items-center'>
-                        <p>More information</p>
-                        <IoArrowDown className='animate-bounce' />
+                    <a
+                        href='#info'
+                        className='flex flex-col justify-center items-center'
+                    >
+                        <p className='font-bold text-dark-brand'>
+                            More information
+                        </p>
+                        <IoArrowDown className='animate-bounce text-dark-brand' />
                     </a>
                 </div>
             </section>
-            <section id='info' className='w-full h-screen md:h-full xl:h-screen max-h-screen flex justify-center'>
+            <section
+                id='info'
+                className='w-full h-screen md:h-full xl:h-screen max-h-screen flex justify-center'
+            >
                 <div className='w-full max-w-screen-2xl h-auto lg:h-96 xl:h-full px-6 md:px-10 md:pt-10 lg:pt-20 lg:px-20'>
                     <div className='w-full h-screen md:h-full flex flex-col md:flex-row-reverse items-center'>
                         <div className='w-full md:w-3/5 h-1/2 xl:h-full flex flex-col justify-center items-center lg:items-start md:px-8 xl:px-16 relative'>
@@ -114,7 +122,7 @@ export default function Home() {
                             </div>
                         </div>
                         <div className='w-full md:w-2/5 h-1/2 md:h-80 lg:h-full flex flex-col justify-start items-center relative'>
-                            <div className='w-72 h-72 md:w-52 md:h-52 xl:w-480 xl:h-480 xl:mt-64 2xl:mt-98 z-10 relative'>
+                            <div className='w-72 h-72 md:w-52 md:h-52 xl:w-480 xl:h-480 xl:mt-64 z-10 relative'>
                                 <Image
                                     src={Mockup2}
                                     alt='Mockup'
@@ -131,7 +139,7 @@ export default function Home() {
                 <div className='w-full max-w-screen-2xl h-auto lg:h-96 xl:h-full px-6 md:px-10 md:pb-10 lg:px-20'>
                     <div className='w-full h-screen md:h-full flex flex-col md:flex-row items-center'>
                         <div className='w-full md:w-2/5 h-1/2 md:h-80 lg:h-full flex flex-col justify-end items-center relative'>
-                            <div className='w-72 h-72 md:w-56 md:h-56 xl:w-480 xl:h-480 xl:mb-64 2xl:mb-98 z-10 relative'>
+                            <div className='w-72 h-72 md:w-56 md:h-56 xl:w-480 xl:h-480 xl:mb-64 z-10 relative'>
                                 <Image
                                     src={Mockup3}
                                     alt='Mockup'
@@ -163,7 +171,7 @@ export default function Home() {
                                     {info.map((element, i) => (
                                         <p
                                             key={i}
-                                            className={`font-medium text-sm xl:text-xl text-${element.color}`}
+                                            className={`font-medium text-sm xl:text-xl ${element.color}`}
                                         >
                                             {element.name}
                                         </p>

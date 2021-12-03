@@ -13,13 +13,13 @@ const Header = () => {
                             height={25}
                             alt='Logo'
                         />
-                        <h1 className='font-extrabold text-white'>
+                        <h1 className='font-bold xl:text-lg text-white'>
                             Pokedex App
                         </h1>
                     </div>
                     <div>
                         <a href="https://github.com/Chris-specs/pokedex-landing">
-                            <IoLogoGithub className='text-2xl text-white transform hover:scale-110 transition-all' />
+                            <IoLogoGithub className='text-2xl xl:text-3xl text-white transform hover:scale-110 transition-all' />
                         </a>
                     </div>
                 </div>
