@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { Header, Footer } from '../components';
 import Logo from '../public/images/logo.svg';
 import Mockup from '../public/images/mockup.svg';
-import Mockup2 from '../public/images/mockup-2.png';
+import Mockup2 from '../public/images/mockup-2.svg';
 import Mockup3 from '../public/images/mockup-3.svg';
 import { SiAndroid } from 'react-icons/si';
 import { IoSwapVertical, IoSearch, IoArrowDown } from 'react-icons/io5';
