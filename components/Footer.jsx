@@ -9,6 +9,7 @@ const Footer = () => {
                     <a
                         href='https://github.com/Chris-specs'
                         target='_blank'
+                        rel='noreferrer'
                         className='font-bold'
                     >
                         Christian Sanchez
