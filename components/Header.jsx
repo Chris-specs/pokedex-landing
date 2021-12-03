@@ -18,7 +18,7 @@ const Header = () => {
                         </h1>
                     </div>
                     <div>
-                        <a href="https://github.com/Chris-specs/pokedex-landing">
+                        <a href="https://github.com/Chris-specs/pokedex-landing" target='_blank'>
                             <IoLogoGithub className='text-2xl xl:text-3xl text-white transform hover:scale-110 transition-all' />
                         </a>
                     </div>

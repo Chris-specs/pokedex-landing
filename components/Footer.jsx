@@ -8,6 +8,7 @@ const Footer = () => {
                     Developed with <IoHeart className='text-lg' /> by{' '}
                     <a
                         href='https://github.com/Chris-specs'
+                        target='_blank'
                         className='font-bold'
                     >
                         Christian Sanchez
