@@ -146,6 +146,7 @@ export default function Home() {
                                     src={Mockup3}
                                     alt='Mockup'
                                     layout='fill'
+                                    priority={true}
                                 />
                             </div>
                             <div className='w-56 md:w-44 xl:w-80 h-90% xl:h-4/6 flex justify-center items-start bg-red-brand rounded-b-full z-0 absolute top-0'>
@@ -154,6 +155,7 @@ export default function Home() {
                                         src={Logo}
                                         alt='Pokeball'
                                         layout='fill'
+                                        priority={true}
                                     />
                                 </div>
                             </div>
