@@ -66,7 +66,7 @@ export default function Home() {
                                 </a>
                             </div>
                             <div className='w-full md:w-1/2 flex flex-col items-center xl:items-end pt-10'>
-                                <Image src={Mockup} alt='Mockup' priority={true} />
+                                <Image src={Mockup} alt='Mockup' />
                             </div>
                         </div>
                     </div>
@@ -117,7 +117,6 @@ export default function Home() {
                                         src={Logo}
                                         alt='Pokeball'
                                         layout='fill'
-                                        priority={true}
                                     />
                                 </div>
                             </div>
@@ -128,7 +127,6 @@ export default function Home() {
                                     src={Mockup2}
                                     alt='Mockup'
                                     layout='fill'
-                                    priority={true}
                                 />
                             </div>
 
@@ -146,7 +144,6 @@ export default function Home() {
                                     src={Mockup3}
                                     alt='Mockup'
                                     layout='fill'
-                                    priority={true}
                                 />
                             </div>
                             <div className='w-56 md:w-44 xl:w-80 h-90% xl:h-4/6 flex justify-center items-start bg-red-brand rounded-b-full z-0 absolute top-0'>
@@ -155,7 +152,6 @@ export default function Home() {
                                         src={Logo}
                                         alt='Pokeball'
                                         layout='fill'
-                                        priority={true}
                                     />
                                 </div>
                             </div>
