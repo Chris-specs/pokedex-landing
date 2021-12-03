@@ -66,7 +66,7 @@ export default function Home() {
                                 </a>
                             </div>
                             <div className='w-full md:w-1/2 flex flex-col items-center xl:items-end pt-10'>
-                                <Image src={Mockup} alt='Mockup' />
+                                <Image src={Mockup} alt='Mockup' priority={true} />
                             </div>
                         </div>
                     </div>
@@ -117,6 +117,7 @@ export default function Home() {
                                         src={Logo}
                                         alt='Pokeball'
                                         layout='fill'
+                                        priority={true}
                                     />
                                 </div>
                             </div>
@@ -127,6 +128,7 @@ export default function Home() {
                                     src={Mockup2}
                                     alt='Mockup'
                                     layout='fill'
+                                    priority={true}
                                 />
                             </div>
 
