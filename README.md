@@ -1,8 +1,8 @@
+#   Landing page to pokedex app
 <div align="center">
 
   ### <img src="https://github.com/Chris-specs/pokedex-landing/blob/master/public/images/logo.svg" height="40px"/>
   
-  This is a landing page to Pokedex App project.
 </div>
 
 The main purpose of this site is the users can download the APK file to install in your devices.
