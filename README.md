@@ -1,7 +1,7 @@
 #   Landing page to pokedex app
-<div align="center">
+<div>
 
-  ### <img src="https://github.com/Chris-specs/pokedex-landing/blob/master/public/images/logo.svg" height="40px"/>
+  ### <img src="https://github.com/Chris-specs/pokedex-landing/blob/master/public/images/logo.svg" height="50px"/>
   
 </div>
 
