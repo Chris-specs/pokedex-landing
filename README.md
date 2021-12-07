@@ -1,6 +1,5 @@
 #   Landing page to pokedex app
 
-The main purpose of this site is the users can download the APK file to install in your devices.
 
 <div align="center">
 
@@ -8,6 +7,7 @@ The main purpose of this site is the users can download the APK file to install 
   
 </div>
 
+The main purpose of this site is the users can download the APK file to install in your devices.
 
 ## Main dependencies 🧱
 
@@ -29,5 +29,5 @@ Run project for development 🚧
 ```
 
 ## 
-Developed with ❤️ by [Christian](https://github.com/Chris-specs)
+Made with ❤️ by [Christian](https://github.com/Chris-specs)
 
