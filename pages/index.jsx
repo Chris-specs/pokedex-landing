@@ -33,17 +33,6 @@ export default function Home() {
             <Head>
                 <title>Pokedex App</title>
                 <meta name='description' content='Download your Pokedex App' />
-                <link rel='icon' href='/favicon.ico' />
-                <link rel='preconnect' href='https://fonts.googleapis.com' />
-                <link
-                    rel='preconnect'
-                    href='https://fonts.gstatic.com'
-                    crossOrigin='true'
-                />
-                <link
-                    href='https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap'
-                    rel='stylesheet'
-                />
             </Head>
             <Header />
             <section className='w-full h-screen md:h-full xl:h-screen max-h-screen'>
@@ -185,4 +174,10 @@ export default function Home() {
             <Footer />
         </>
     );
+}
+
+export async function getStaticProps() {
+    return {
+        props: {},
+    };
 }
